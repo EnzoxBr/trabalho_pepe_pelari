@@ -1,0 +1,17 @@
+Qual é a linha de código no arquivo style.css está a função que estiliza o body do site.
+body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+}
+Qual as linhas de código determinam o usuário e senha como variaveis no arquivo script.js
+const username = loginForm.username.value;
+    const password = loginForm.password.value;
+if (username === "Portador do cartão" && password === "12345"){
+        alert("Você fez login com sucesso !!!");
+        location.reload();
+    }
